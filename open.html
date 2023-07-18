@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>수원박물관 열린마당</title>
+    <link rel="stylesheet" href="./lib/slick/slick.css">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./lib/slick/slick.js"></script>
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login.css">
+
+
+    <script src="https://kit.fontawesome.com/6f494923fa.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./favi/favicon.ico">
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">
+            <a href="/">
+                <img src="./image/my/Hlogo.jpg" class="pc-logo" alt="수원박물관 Suwon Museum">
+                <img src="./image/my/Hlogo.jpg" class="mb-logo" alt="수원박물관 Suwon Museum">
+            </a>
+        </h1>
+
+        <div class="gnbWrap">
+            <div class="menu-top">
+                <div class="menu-btn">
+                    <a href="#none" class="login">LOGIN</a>
+                    <div class="language">
+                        <a href="#none">KOR</a>
+                        <div class="wrap">
+                            <a href="#none">KOR</a>
+                            <a href="#none">ENG</a>
+                            <a href="#none">JPN</a>
+                            <a href="#none">CHN</a>
+                        </div>
+                    </div>
+                    <button type="button" class="close">
+                        <span>메뉴닫기</span>
+                    </button>
+                </div>
+                <div class="time-wrap">
+                    <p class="title">관람시간</p>
+                    <ul>
+                        <li>
+                            <p class="title">주중·주말</p>
+                            <p class="text">
+                                <span>09:00 ~ 18:00</span>
+                                <span class="required">※ 매표 마감은 1시간 전까지</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="title">휴관일</p>
+                            <p class="text">매주 월요일 <br>(그 밖에 시장이 정하는 휴관일)</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="Pmenu">
+                <li><a href="#none" title="이용안내 페이지 이동">이용안내</a>
+                    <div class="depth2Wrap">
+                        <ul class="depth3">
+                            <li><a href="#none"><span>관람안내</span></a></li>
+                            <li><a href="#none" class="arrow"><span>예약안내</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">단체관람 예약</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">어린이체험실 예약</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>시설안내</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">시설현황</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">박물관 1층</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">박물관 2층</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">박물관 3층</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none"><span>북카페안내</span></a></li>
+                            <li><a href="#none" class="arrow"><span>대관안내</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">대관안내</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="linkGo">대관예약</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>기증안내</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">기증안내</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none"><span>자원봉사안내</span></a></li>
+                            <li><a href="#none"><span>오시는길</span></a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#none" title="전시안내 페이지 이동">전시안내</a>
+                    <div class="depth2Wrap">
+                        <ul class="depth3">
+                            <li><a href="#none" class="arrow"><span>수원역사박물관</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">선사시대-고려시대</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">조선시대 수원</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">수원의 물과 길,</a>
+                                        <a href="#none">60년대 수원 안내</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">근대수원100년</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>한국서예박물관</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">한국서예박물관</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">서예의 이해</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">서예 감상법</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">서체의 종류</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>기획전시</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">기획전시</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">대관전시</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>야외전시</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">송덕비</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">의장석물</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">묘제석물</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">야외전시 유물</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>사이버전시관</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none" class="linkGo">수원역사박물관</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="linkGo">한국서예박물관</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="linkGo">한국전쟁과 수원화성</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#none" title="교육 페이지 이동">교육</a>
+                    <div class="depth2Wrap">
+                        <ul class="depth3">
+                            <li><a href="#none" class="linkGo"><span>교육신청</span></a></li>
+                            <li><a href="#none" class="arrow"><span>단체교육</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">관학연계</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">청소년(자유학년제)교육</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>어린이체험실</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">어린이체험실 예약</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>교육영상</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">온라인 교육</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">여민학당</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">기타</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#none" title="소장품 페이지 이동">자료실</a>
+                    <div class="depth2Wrap">
+                        <ul class="depth3">
+                            <li><a href="#none" class="arrow"><span>자료정보실</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">자료실 안내</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">도서자료검색</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">관련사이트</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>유물자료실</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">고고유물</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">고문헌</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">회화</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">서예</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">민속공예품</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">복식</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">병장기</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">근현대유물</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">사진류</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">기타</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none"><span>수원의 인물</span></a></li>
+                            <li><a href="#none"><span>근대수원자료</span></a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#none" title="열린마당 페이지 이동">발간도서</a>
+                    <div class="depth2Wrap">
+                        <ul class="depth3">
+                            <li><a href="#none" class="arrow"><span>도록</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">역사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">서예</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>정기간행물</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">연보</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">소식지</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">백서</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>총서</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">학술총서</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">마을지</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">증언자료집</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">역사문화연구</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">기증유물목록집</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">조사보고서</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none"><span>교육교재</span></a></li>
+                            <li><a href="#none"><span>기타</span></a></li>
+                            <li><a href="#none"><span>E-BOOK</span></a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#none" title="열린마당 페이지 이동">열린마당</a>
+                    <div class="depth2Wrap">
+                        <ul class="depth3">
+                            <li><a href="#none"><span>수박에 놀러와</span></a></li>
+                            <li><a href="#none"><span>자유게시판</span></a></li>
+                            <li><a href="#none"><span>설문조사</span></a></li>
+                            <li><a href="#none"><span>수령등록</span></a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#none" title="박물관 소개 페이지 이동">박물관소개</a>
+                    <div class="depth2Wrap">
+                        <ul class="depth3">
+                            <li><a href="#none"><span>인사말</span></a></li>
+                            <li><a href="#none"><span>박물관개요</span></a></li>
+                            <li><a href="#none"><span>박물관연혁</span></a></li>
+                            <li><a href="#none"><span>박물관로고</span></a></li>
+                            <li><a href="#none"><span>조직및부서</span></a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#none" title="박물관 소식 페이지 이동">박물관소식</a>
+                    <div class="depth2Wrap">
+                        <ul class="depth3">
+                            <li><a href="#none"><span>공지사항</span></a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <ul class="Mmenu">
+                <li><a href="#none" title="이용안내 페이지 이동" class="">이용안내</a>
+                    <div class="depth2-wrap">
+                        <ul class="depth3">
+                            <li><a href="#none"><span>관람안내</span></a></li>
+                            <li><a href="#none" class="arrow"><span>예약안내</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">단체관람 예약</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">어린이체험실 예약</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>시설안내</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">시설현황</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">박물관 1층</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">박물관 2층</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">박물관 3층</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none"><span>북카페안내</span></a></li>
+                            <li><a href="#none" class="arrow"><span>대관안내</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">대관안내</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="linkGo">대관예약</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>기증안내</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">기증안내</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none"><span>자원봉사안내</span></a></li>
+                            <li><a href="#none"><span>오시는길</span></a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#none" title="전시안내 페이지 이동">전시안내</a>
+                    <div class="depth2-wrap">
+                        <ul class="depth3">
+                            <li><a href="#none" class="arrow"><span>수원역사박물관</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">선사시대-고려시대</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">조선시대 수원</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">수원의 물과 길,</a>
+                                        <a href="#none">60년대 수원 안내</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">근대수원100년</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>한국서예박물관</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">한국서예박물관</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">서예의 이해</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">서예 감상법</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">서체의 종류</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>기획전시</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">기획전시</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">대관전시</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>야외전시</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">송덕비</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">의장석물</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">묘제석물</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">야외전시 유물</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>사이버전시관</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none" class="linkGo">수원역사박물관</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="linkGo">한국서예박물관</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none" class="linkGo">한국전쟁과 수원화성</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#none" title="교육 페이지 이동">교육</a>
+                    <div class="depth2-wrap">
+                        <ul class="depth3">
+                            <li><a href="#none" class="linkGo"><span>교육신청</span></a></li>
+                            <li><a href="#none" class="arrow"><span>단체교육</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">관학연계</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">청소년(자유학년제)교육</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>어린이체험실</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">어린이체험실 예약</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>교육영상</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">온라인 교육</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">여민학당</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">기타</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#none" title="소장품 페이지 이동">자료실</a>
+                    <div class="depth2-wrap">
+                        <ul class="depth3">
+                            <li><a href="#none" class="arrow"><span>자료정보실</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">자료실 안내</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">도서자료검색</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">관련사이트</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>유물자료실</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">고고유물</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">고문헌</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">회화</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">서예</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">민속공예품</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">복식</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">병장기</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">근현대유물</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">사진류</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">기타</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none"><span>수원의 인물</span></a></li>
+                            <li><a href="#none"><span>근대수원자료</span></a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#none" title="발간도서 페이지 이동">발간도서</a>
+                    <div class="depth2-wrap">
+                        <ul class="depth3">
+                            <li><a href="#none" class="arrow"><span>도록</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">역사</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">서예</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>정기간행물</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">연보</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">소식지</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">백서</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none" class="arrow"><span>총서</span></a>
+                                <ul class="depth4">
+                                    <li>
+                                        <a href="#none">학술총서</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">마을지</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">증언자료집</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">역사문화연구</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">기증유물목록집</a>
+                                    </li>
+                                    <li>
+                                        <a href="#none">조사보고서</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#none"><span>교육교재</span></a></li>
+                            <li><a href="#none"><span>기타</span></a></li>
+                            <li><a href="#none"><span>E-BOOK</span></a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#none" title="열린마당 페이지 이동">열린마당</a>
+                    <div class="depth2-wrap">
+                        <ul class="depth3">
+                            <li><a href="#none"><span>수박에 놀러와</span></a></li>
+                            <li><a href="#none"><span>자유게시판</span></a></li>
+                            <li><a href="#none"><span>설문조사</span></a></li>
+                            <li><a href="#none"><span>수령등록</span></a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#none" title="박물관 소개 페이지 이동">박물관소개</a>
+                    <div class="depth2-wrap">
+                        <ul class="depth3">
+                            <li><a href="#none"><span>인사말</span></a></li>
+                            <li><a href="#none"><span>박물관개요</span></a></li>
+                            <li><a href="#none"><span>박물관연혁</span></a></li>
+                            <li><a href="#none"><span>박물관로고</span></a></li>
+                            <li><a href="#none"><span>조직및부서</span></a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#none" title="박물관 소식 페이지 이동">박물관소식</a>
+                    <div class="depth2-wrap">
+                        <ul class="depth3">
+                            <li><a href="#none"><span>공지사항</span></a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="Hbtn">
+            <a href="#none" class="login">로그인</a>
+            <button type="button" class="search" title="검색창 열기">검색창 열기</button>
+            <button type="button" class="gnb-btn" title="메뉴 열기">메뉴 열기</button>
+            <div class="language">
+                <a href="#none" class="">KOR</a>
+                <div class="wrap">
+                    <a href="#none" title="페이지 이동">KOR</a>
+                    <a href="#none" title="페이지 이동">ENG</a>
+                    <a href="#none" title="페이지 이동">CHN</a>
+                    <a href="#none" title="페이지 이동">JPN</a>
+                </div>
+            </div>
+            <form action="#none" class="searchWrap" method="post">
+                <div class="inner">
+                    <input type="text" name="query" placeholder="검색어를 입력하세요.">
+                    <button type="submit" class="searchBtn" title="검색">검색</button>
+                    <button type="button" class="closeBtn" title="검색창 닫기">검색창 닫기</button>
+                </div>
+            </form>
+        </div>
+    </header>
+
+    <div class="sub-navi">
+        <div class="layout">
+            <ul class="navi-list">
+                <li class="home">
+                    <a href="/" class="home" title="메인페이지로 이동">home</a>
+                </li>
+                <li>
+                    <a href="#none">열린마당</a>
+                    <ul class="list">
+                        <li><a href="#none">이용안내</a></li>
+                        <li><a href="#none">전시안내</a></li>
+                        <li><a href="#none">교육</a></li>
+                        <li><a href="#none">자료실</a></li>
+                        <li><a href="#none">발간도서</a></li>
+                        <li><a href="#none">열린마당</a></li>
+                        <li><a href="#none">박물관 소개</a></li>
+                        <li><a href="#none">박물관 소식</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#none">자유게시판</a>
+                    <ul class="list">
+                        <li><a href="#none">수박에 놀러와</a></li>
+                        <li><a href="#none">자유게시판</a></li>
+                        <li><a href="#none">시설안내</a></li>
+                        <li><a href="#none">설문조사</a></li>
+                        <li><a href="#none">수령등록</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="section"></section>
+
+    <footer class="footer">
+        <h2 class="Flogo">
+            <a href="#none" title="메인으로 이동">
+                <img src="./image/my/Flogo.png" alt="logo" class="pc-logo">
+                <img src="./image/my/Flogo.png" alt="logo" class="mb-logo">
+            </a>
+        </h2>
+        <div class="Fbtns">
+            <a href="#none">수원특례시청</a>
+            <a href="#none">수원화성박물관</a>
+            <a href="#none">수원광교박물관</a>
+            <a href="#none">수원시박물관사업소</a>
+            <a href="#none">이용약관</a>
+            <a href="#none">개인정보처리방침</a>
+            <a href="#none">민원신청</a>
+        </div>
+        <address>
+            <p>
+                <span>[16227] 경기도 수원시 영통구 창룡대로 265(이의동)</span>
+            </p>
+            <p>
+                <span>TEL 031.228.4150 FAX 031.228.4149</span>
+            </p>
+        </address>
+        <div class="Fsns">
+            <a href="#none" class="blog">blog</a>
+            <a href="#none" class="youtube">youtube</a>
+            <a href="#none" class="instagram">instagram</a>
+            <a href="#none" class="facebook">facebook</a>
+        </div>
+        <p class="copyright">COPYRIGHT &copy; 2014 SUWON MUSEUM. ALL RIGHT RESERVED.</p>
+    </footer>
+</body>
+</html>
